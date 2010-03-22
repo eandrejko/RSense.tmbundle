@@ -16,9 +16,9 @@ RSense.tmbundle uses the command line interface to RSense and has the same requi
 Complete the name of a method using Ctrl + Esc.  The method completion is content-aware:
 
   module MyModule
-  	def self.foo(a)
-  		a.to_s.upcase
-  	end
+    def self.foo(a)
+      a.to_s.upcase
+    end
   end
 
   MyModule::foo("bar").st
