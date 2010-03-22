@@ -1,6 +1,10 @@
 = RSense based code completion for TextMate
 
-This Bundle brings rudimentary support for [RSense](http://cx4a.org/software/rsense/index.html) code completion to TextMate.  This Bundle is currently very simple, buggy and likely to change in the near future.
+This Bundle brings rudimentary support for RSense, http://cx4a.org/software/rsense/index.html, code completion to TextMate.  This Bundle is currently very simple, buggy and likely to change in the near future.
+
+== Requirements
+
+RSense.tmbundle uses the command line interface to RSense and has the same requirements as RSense: http://cx4a.org/software/rsense/manual.html#Requirements . In particular a working JRE must be installed.
 
 == Installation
 
