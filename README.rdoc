@@ -1,0 +1,22 @@
+= RSense based code completion for TextMate
+
+This Bundle brings rudimentary support for [RSense](http://cx4a.org/software/rsense/index.html) code completion to TextMate.  This Bundle is currently very simple, buggy and likely to change in the near future.
+
+== Installation
+
+	cd ~/Library/Application\ Support/TextMate/Bundles/
+	git clone http://github.com/eandrejko/RSense.tmbundle.git
+
+== Usage
+
+Complete the name of a method using Ctrl + Esc.  The method completion is content-aware:
+
+	module MyModule
+		def self.foo(a)
+			a.to_s.upcase
+		end
+	end
+	
+	MyModule::foo("bar").st
+
+with the caret at the last position would offer completions "strip", "strip!" and "start_with?".

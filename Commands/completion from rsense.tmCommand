@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>${TM_RUBY:-ruby} "${TM_BUNDLE_SUPPORT}/lib/completions.rb"</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^</string>
+	<key>name</key>
+	<string>Complete method from RSense</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>uuid</key>
+	<string>91159478-AB14-4E7D-A4B0-642648E7CB8A</string>
+</dict>
+</plist>

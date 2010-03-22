@@ -1,0 +1,87 @@
+Title: RSense - The most useful development tools for Ruby
+CSS: style.css
+
+RSense
+======
+
+*The most useful development tools for [Ruby][]*
+
+\[[Japanese](index.ja.txt)]
+
+* * * *
+
+{toc}
+
+* * * *
+
+What is RSense?
+---------------
+
+RSense is a development tools for [Ruby][], which is written in Java. Following [UNIX philosophy][], RSense can be used from anywhere easily. Generally, it is used from editors such like Emacs, Vim, etc. We are struggling to keep a transparency for hackers to learn, extend, and fix easily.
+
+Features
+--------
+
+Main available features are:
+
+* Code completion
+* Type inspection
+
+In the future, the following features will be also available:
+
+* Static code checking
+* Definition jump
+* Caller jump
+* Refactoring
+
+Screenshots
+-----------
+
+![](rsense-emacs-2.png)
+![](rsense-vim.png)
+
+Demo
+----
+
+* [YouTube](http://www.youtube.com/watch?v=V-tpOJgugh4)
+* [Ogg Theora with video tag](demo.txt)
+
+Downloads
+---------
+
+### Latest Stable ###
+
+* [rsense-0.2.tar.bz2](/pub/rsense/rsense-0.2.tar.bz2)
+* [rsense-0.2.zip](/pub/rsense/rsense-0.2.zip)
+
+User Manual
+-----------
+
+[RSense User Manual](manual.txt)
+
+User's Voice
+------------
+
+Please send me a comment with your name (or anonymous) to [tomo@cx4a.org](mailto: tomo@cx4a.org) if you like it. Any comments are welcome.
+
+Source Code
+-----------
+
+Git repositories are available:
+
+* <http://cx4a.org/repo/rsense.git>
+* <http://github.com/m2ym/rsense> (GitHub mirror)
+
+License
+-------
+
+This software is distributed under the term of [GPLv3][].
+
+Contribution
+------------
+
+We welcome any contribution. Read [development guide](devel.txt).
+
+[Ruby]: http://www.ruby-lang.org/ "Ruby Programming Language"
+[UNIX philosophy]: http://en.wikipedia.org/wiki/Unix_philosophy
+[GPLv3]: http://gplv3.fsf.org/

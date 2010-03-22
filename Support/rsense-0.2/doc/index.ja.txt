@@ -1,0 +1,87 @@
+Title: RSense - Rubyのための最も優れた開発援助ツール
+CSS: style.css
+
+RSense
+======
+
+*[Ruby][]のための最も優れた開発援助ツール*
+
+\[[English](index.txt)]
+
+* * * *
+
+{toc}
+
+* * * *
+
+RSenseとは？
+------------
+
+RSenseはJavaで書かれた[Ruby][]のための開発補助ツールです。[UNIXの思想][UNIX philosophy]に従うことで、RSenseはどこからでも簡単に使えるようになっています。EmacsやVimなどのエディタからも利用できます。RSenseは透明性を保つことで簡単に学習・拡張・修正できるよう設計されています。
+
+特徴
+----
+
+現在利用可能な機能は以下のようになっています。
+
+* コード補完（メソッド名補完など）
+* 型検査
+
+将来は以下の機能も利用可能になる予定です。
+
+* 静的コードチェック
+* 定義元ジャンプ
+* 呼び出し元ジャンプ
+* リファクタリング
+
+スクリーンショット
+------------------
+
+![](rsense-emacs-2.png)
+![](rsense-vim.png)
+
+デモ
+----
+
+* [YouTube](http://www.youtube.com/watch?v=V-tpOJgugh4)
+* [Ogg Theora with video tag](demo.txt)
+
+ダウンロード
+------------
+
+### 最新安定板 ###
+
+* [rsense-0.2.tar.bz2](/pub/rsense/rsense-0.2.tar.bz2)
+* [rsense-0.2.zip](/pub/rsense/rsense-0.2.zip)
+
+ユーザーマニュアル
+------------------
+
+[RSenseユーザーマニュアル](manual.ja.txt)
+
+利用者の声
+----------
+
+利用者の声をぜひお聞かせください。あなたの名前（匿名希望可）とコメントをそえて[tomo@cx4a.org](mailto: tomo@cx4a.org)までメールでお願いします。どんなコメントでも歓迎です。
+
+ソースコード
+------------
+
+ソースコードは以下のGitリポジトリから取得できます。
+
+* <http://cx4a.org/repo/rsense.git>
+* <http://github.com/m2ym/rsense> (GitHubミラー)
+
+ライセンス
+----------
+
+このソフトウェアは[GPLv3][]のもとで配布されます。
+
+開発
+----
+
+どのような貢献も歓迎です。RSenseをハックしたい方はまず[開発ガイド](devel.txt)を読むことから始めるとよいでしょう。
+
+[Ruby]: http://www.ruby-lang.org/ "Ruby Programming Language"
+[UNIX philosophy]: http://en.wikipedia.org/wiki/Unix_philosophy
+[GPLv3]: http://gplv3.fsf.org/
