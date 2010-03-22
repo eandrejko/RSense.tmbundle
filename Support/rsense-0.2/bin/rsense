@@ -3,7 +3,7 @@
 require 'socket'
 
 $is_win = RUBY_PLATFORM.downcase =~ /mswin(?!ce)|mingw|cygwin|bccwin/
-$rsense_home = ENV['RSENSE_HOME'] || File.dirname(File.dirname(File.expand_path($0)))
+$rsense_home = ENV['RSENSE_HOME'] || File.dirname(File.dirname(File.expand_path($0))).gsub(" ", "\\ ")
 $socket_path = ENV['RSENSE_SOCKET']
 $classpath = ENV['RSENSE_CLASSPATH']
 $pid_file = ENV['RSENSE_PID_FILE']
