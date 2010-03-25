@@ -24,3 +24,7 @@ Complete the name of a method using Ctrl + Esc.  The method completion is conten
   MyModule::foo("bar").st
 
 with the caret at the last position would offer completions "strip", "strip!" and "start_with?".
+
+== License
+
+Rsense.tmbundle is distributed under the terms of GPLv3.
